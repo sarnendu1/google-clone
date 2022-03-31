@@ -21,7 +21,7 @@ body {
   flex-direction: column;
 }
 
-/* Header */
+
 header {
   height: 60px;
 }
@@ -93,7 +93,7 @@ margin-top: 5px;
   line-height: 30px;
 }
 
-/* Content */
+
 .content-section {
   flex-grow: 1;
   display: flex;
@@ -193,7 +193,7 @@ margin-top: 5px;
   text-decoration: underline;
 }
 
-/* Footer */
+
 footer {
   position: absolute;
   background-color: #F2F2F2;
@@ -279,12 +279,12 @@ footer {
       width: 30px;
   }
 
-  /* Logo */
+
   .logo-img {
       width: 200px;
   }
 
-  /* Search Bar */
+  
   .search-bar {
       width: 90%;
       height: 35px;
@@ -294,7 +294,7 @@ footer {
       font-size: 14px;
   }
 
-  /* Buttons */
+ 
   .search-btns button {
       height: 30px;
       font-size: 12px;
@@ -308,12 +308,12 @@ footer {
       width: 120px;
   }
 
-  /* Language */
+  
   .language {
       font-size: 5px;
   }
 
-  /* Footer */
+ 
   footer {
       height: fit-content;
       

@@ -66,7 +66,7 @@ export default function Home() {
             </div>
             <div className="search-btns">
                 <button className="google-search-btn">Google Search</button>
-                <button className="lucky-search-btn">I'm Feeling Lucky</button>
+                <button className="lucky-search-btn">{`I'm Feeling Lucky`}</button>
             </div>
             <div className="language">
                 <p>Google Offered in: <a href="">हिन्दी</a>  <a href="">বাংলা</a>  <a href="">తెలుగు</a>  <a href="">मराठी</a>  <a href="">தமிழ்</a>  <a href="">ગુજરાતી</a>  <a href="">ಕನ್ನಡ</a>  <a href="">മലയാളം</a>  <a href="">ਪੰਜਾਬੀ</a></p>

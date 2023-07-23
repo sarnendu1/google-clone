@@ -1,5 +1,4 @@
 html,
-
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +19,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 
 header {
   height: 60px;
@@ -67,13 +65,13 @@ header {
 }
 
 .margin-right {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .margin-appsbar {
-margin-top: 5px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 }
-
 
 .menu-icon,
 .user-icon span {
@@ -85,14 +83,13 @@ margin-top: 5px;
 }
 
 .user-icon {
-  background-color: #EF6C00;
+  background-color: #ef6c00;
   height: 30px;
   width: 30px;
   border-radius: 50%;
   text-align: center;
   line-height: 30px;
 }
-
 
 .content-section {
   flex-grow: 1;
@@ -127,7 +124,7 @@ margin-top: 5px;
 }
 
 .search-bar:hover {
-  box-shadow: 0px 0px 4px 0px #B5B5B5;
+  box-shadow: 0px 0px 4px 0px #b5b5b5;
 }
 
 .search-bar i {
@@ -160,7 +157,7 @@ margin-top: 5px;
   border-radius: 5px;
   margin-left: 10px;
   color: black;
-  background-color: #F2F3F4;
+  background-color: #f2f3f4;
 }
 
 .search-btns button:hover {
@@ -169,10 +166,12 @@ margin-top: 5px;
 
 .google-search-btn {
   width: 120px;
+  cursor: pointer;
 }
 
 .lucky-search-btn {
   width: 140px;
+  cursor: pointer;
 }
 
 .language {
@@ -180,7 +179,7 @@ margin-top: 5px;
   font-size: 14px;
 }
 
-.language p{
+.language p {
   font-size: 13px;
   color: #3c4043;
 }
@@ -193,10 +192,9 @@ margin-top: 5px;
   text-decoration: underline;
 }
 
-
 footer {
   position: absolute;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   height: 100px;
   width: 100%;
   bottom: 0;
@@ -241,7 +239,6 @@ footer {
   margin-right: 15px;
 }
 
-
 .lower-right-footer {
   display: flex;
 }
@@ -258,79 +255,68 @@ footer {
     align-items: center;
     margin-top: 150px;
     margin-bottom: 320px;
-    
   }
 }
 
-
 @media only screen and (max-width: 650px) {
-  
   .navbar ul {
-      font-size: 10px;
+    font-size: 10px;
   }
 
   .menu-icon,
   .user-icon span {
-      font-size: 14px;
+    font-size: 14px;
   }
 
   .circle-shadow {
-      height: 30px;
-      width: 30px;
+    height: 30px;
+    width: 30px;
   }
-
 
   .logo-img {
-      width: 200px;
+    width: 200px;
   }
 
-  
   .search-bar {
-      width: 90%;
-      height: 35px;
+    width: 90%;
+    height: 35px;
   }
 
   .search-bar i {
-      font-size: 14px;
+    font-size: 14px;
   }
 
- 
   .search-btns button {
-      height: 30px;
-      font-size: 12px;
+    height: 30px;
+    font-size: 12px;
   }
 
   .google-search-btn {
-      width: 100px;
+    width: 100px;
   }
-  
+
   .lucky-search-btn {
-      width: 120px;
+    width: 120px;
   }
 
-  
   .language {
-      font-size: 5px;
+    font-size: 5px;
   }
 
- 
   footer {
-      height: fit-content;
-      
+    height: fit-content;
   }
 
   .upper-footer {
-      height: 50px;
+    height: 50px;
   }
 
   .lower-footer {
-      height: fit-content;
-      flex-direction: row;
-      
+    height: fit-content;
+    flex-direction: row;
   }
 
   .lower-left-footer {
-      
   }
   .lower-footer ul li a {
     font-size: 8px;
@@ -349,11 +335,8 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-    
-    
   }
   .language p {
     font-size: 8px;
   }
 }
-

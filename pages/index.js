@@ -60,7 +60,12 @@ export default function Home() {
             </li>
             <li>
               <div className="circle-shadow">
-                <img src="profile.png" alt="profile" width="35px" />
+                <img
+                  src="profile.png"
+                  alt="profile"
+                  width="35px"
+                  className="circle-img"
+                />
               </div>
             </li>
           </ul>
